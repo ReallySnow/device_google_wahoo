@@ -541,7 +541,8 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.1.vendor \
     android.hardware.bluetooth.a2dp@1.0.vendor \
     android.hardware.bluetooth.audio@2.0-impl \
-    android.hardware.audio@2.0-service
+    android.hardware.audio@2.0-service \
+    libldacBT_bco
 
 # stereo speakers: orientation changes swap L/R channels
 PRODUCT_PROPERTY_OVERRIDES += \
